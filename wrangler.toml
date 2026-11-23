@@ -1,0 +1,13 @@
+name = "zidcash-api"
+main = "src/index.js"
+compatibility_date = "2026-11-23"
+
+[vars]
+APP_NAME = "ZidCash"
+CORS_ORIGIN = "*"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "zidcash-db"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
+migrations_dir = "migrations"
